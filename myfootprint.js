@@ -60,7 +60,7 @@ function populate_footprint(fp) {
 
 	    var table_str = sprintf('<table id="%s-pi-field-table"></table>', pi_field);
 	    var table_body_str = sprintf('<tbody id="%s-pi-field-table-body"></tbody>', pi_field);
-
+	    table_body_str=$(table_body_str).replace("edit","");
 	    var table = $(table_str).addClass('pi-table');
 	    var table_body = $(table_body_str);
 
