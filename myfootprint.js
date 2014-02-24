@@ -60,13 +60,14 @@ function populate_footprint(fp) {
 
 	    var table_str = sprintf('<table id="%s-pi-field-table"></table>', pi_field);
 	    var table_body_str = sprintf('<tbody id="%s-pi-field-table-body"></tbody>', pi_field);
-
+          
 	    var table = $(table_str).addClass('pi-table');
 	    var table_body = $(table_body_str);
 
 	    for (var pi_value in fp[pi_field]) {
 		var table_row_str = sprintf('<tr><td>%s</td><td>%s</td></tr>', 
 					     pi_value, fp[pi_field][pi_value]);
+		table_row_str.replace("edit","");			     
 		var table_row = $(table_row_str);
 		table_body.append(table_row);
 	    }
