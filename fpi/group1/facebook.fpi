@@ -35,7 +35,7 @@
 
 			<div name="relationship">
 	  			<action type="store">
-					tbody th:contains("Relationship Status") + td
+					tbody th:contains("Relationship Status") + td div div
 	  			</action>
 			</div>
 
@@ -43,7 +43,7 @@
 
 			<div name="anniversary-date">
 	  			<action type="store">
-					tbody th:contains("Anniversary") + td
+					tbody th:contains("Anniversary") + td div div 
 	  			</action>
 			</div>
 
@@ -51,7 +51,7 @@
 
 			<div name="birth-date">
 	  			<action type="store">
-					tbody th:contains("Birthday") + td
+					tbody th:contains("Birthday") + td div div
 	  			</action>
 			</div>
 
@@ -59,7 +59,7 @@
 
 			<div name="gender">
 	  			<action type="store">
-					tbody th:contains("Gender") + td
+					tbody th:contains("Gender") + td div div
 	  			</action>
 			</div>
 
@@ -67,7 +67,7 @@
 
 			<div name="languages">
 	  			<action type="fetch-dom-element">
-					tbody th:contains("Languages") + td a
+					tbody th:contains("Languages") + td div div
 	  			</action>
 				<div name="language">
 	  				<action type="combine-n-store">
@@ -79,7 +79,7 @@
 
 			<div name="interested-in">
 	  			<action type="store">
-					tbody th:contains("Interested In") + td
+					tbody th:contains("Interested In") + td div div
 	  			</action>
 			</div>
 
@@ -87,7 +87,7 @@
 
 			<div name="religious-view">
 	  			<action type="store">
-					tbody th:contains("Religious Views") + td
+					tbody th:contains("Religious Views") + td div div
 	  			</action>
 			</div>
 
@@ -95,7 +95,7 @@
 
 			<div name="political-view">
 	  			<action type="store">
-					tbody th:contains("Political Views") + td
+					tbody th:contains("Political Views")+ td div div
 	  			</action>
 			</div>
 		</div>
